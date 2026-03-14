@@ -4,7 +4,7 @@
 To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
-
+<img width="434" height="886" alt="Image" src="https://github.com/user-attachments/assets/6073db0e-4c8f-4269-b7b1-8e3f50c4aef3" />
 
 
 ## DESIGN STEPS
@@ -220,13 +220,17 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 ### OUTPUT
 
+<img width="1684" height="677" alt="Image" src="https://github.com/user-attachments/assets/a627cddc-62b0-4c36-93fb-6786dabc6d1b" />
+
 ## Loss Vs Epoch Plot
 
+<img width="931" height="631" alt="Image" src="https://github.com/user-attachments/assets/6fd5ab82-ebe0-45d8-aa92-f5ecfc700caa" />
 
 
 ### Sample Text Prediction
-Include your sample text prediction here
+
+<img width="921" height="518" alt="Image" src="https://github.com/user-attachments/assets/c250bac9-522f-4ee1-b27a-7818d8e8d34c" />
 
 
 ## RESULT
-Include your result here
+Thus, the above python code is successfully executed.
