@@ -216,9 +216,6 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
         true_label = tags[true_tag.item()]
         pred_label = tags[pred_tag]
         print(f"{word:<15} {true_label:<10} {pred_label}")
-
-
-
 ```
 
 ### OUTPUT
@@ -229,6 +226,7 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 ### Sample Text Prediction
 Include your sample text prediction here
+
 
 ## RESULT
 Include your result here
