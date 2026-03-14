@@ -7,37 +7,24 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 
 ## DESIGN STEPS
-### STEP 1: 
+STEP 1: Load data, create word/tag mappings, and group sentences.
 
-Write your own steps
+STEP 2: Convert sentences to index sequences, pad to fixed length, and split into training/testing sets.
 
-### STEP 2: 
+STEP 3: Define dataset and DataLoader for batching.
 
+STEP 4: Build a bidirectional LSTM model for sequence tagging.
 
+STEP 5: Train the model over multiple epochs, tracking loss.
 
-### STEP 3: 
-
-
-
-### STEP 4: 
-
-
-
-### STEP 5: 
-
-
-
-### STEP 6: 
-
-
-
+STEP 6: Evaluate model accuracy, plot loss curves, and visualize predictions on a sample.
 
 
 ## PROGRAM
 
-### Name:
+### Name: THEJASHREE S
 
-### Register Number:
+### Register Number: 212224240175
 
 ```python
 import pandas as pd
@@ -237,7 +224,7 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 ## Loss Vs Epoch Plot
 
-Include your plot here
+
 
 ### Sample Text Prediction
 Include your sample text prediction here
