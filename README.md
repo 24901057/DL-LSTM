@@ -4,6 +4,8 @@
 To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
+Named Entity Recognition (NER) is a key task in Natural Language Processing where entities such as names, locations, and organizations are identified from text. The objective of this project is to develop an LSTM-based model to recognize named entities in the given text by capturing sequential patterns, and to evaluate its performance using appropriate metrics such as precision, recall, and F1-score.
+
 <img width="434" height="886" alt="Image" src="https://github.com/user-attachments/assets/6073db0e-4c8f-4269-b7b1-8e3f50c4aef3" />
 
 
